@@ -1,0 +1,64 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body,
+.gridContainer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.86);
+}
+
+.screen {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 75x;
+    height: 30px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.clearButton {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.gridChild {
+    display: flex;
+    width: 700px;
+    height: 600px;
+    flex-direction: column;
+    gap: 3px;
+    padding: 20px;
+}
+
+.columns {
+    flex: 1;
+    display: flex;
+}
+
+.cells {
+    flex: 1;
+    background-color: firebrick;
+    border: 1px solid black;
+}
+
+h3 {
+    color: white;
+    font-weight: 800;
+}
